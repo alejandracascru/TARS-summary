@@ -12,7 +12,9 @@
 [Link to Code](https://github.com/ShivamDuggal4/TARS3D)
 
 *__Recent Trends in 3D Computer Vision - TUM - 2023__*
+
 This Blog gives a summary and brief explanation of the TARS paper.
+
 Blog author: Alejandra Castelblanco
 
 
