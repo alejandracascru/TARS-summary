@@ -53,7 +53,7 @@ In this work, the authors propose a model that estimates a 3D shape of an object
 
 __Achievements:__
 
-1. This work outperformed priors works in term of 3D reconstruction fidelity and generated 3D shapes with better global structure and finer instance-specific details. 
+1. This work outperformed prior works in term of 3D reconstruction fidelity and generated 3D shapes with better global structure and finer instance-specific details. 
 2. The method allows to learn 3D correspondence across instances of a category.
 ___
 ___
@@ -82,7 +82,7 @@ There are two steps for making inferences: (A) Deformation Fields + Point Featur
 
 - Second, coordinates of the object $X_{object}=[x,y,z]$ (shown in red), are sampled in the 2.5D representation of the image, via SRN. 
 
-- Both representations are given to the DeformNet model $g(I + X_{object})$, to obtain a deformation field $(\Delta)$, and then $\Delta + x_{object}$ generates a point in the canonical shape representation: $X_{canonical:3D}=[x',y',z']$.
+- Both representations are given to the DeformNet model $g(I + X_{object})$, to obtain a deformation field $(\Delta)$, and then $\Delta + X_{object}$ generates a point in the canonical shape representation: $X_{canonical:3D}=[x',y',z']$.
 
 The Deformnet model also outputs: Image point features and RGB color estimations of the sampled point in the image.
 
